@@ -4,7 +4,7 @@ from pygame import mixer
 
 # Initialize alarm
 mixer.init()
-mixer.music.load(r"C:\Users\AM\Desktop\ESP\.idea\alarm_sound.mp3") # Load the alarm sound file from a specified path
+mixer.music.load(r"C:\Users\AM\Desktop\ESP\.idea\alarm_sound.mp3") 
 
 # Load pre-trained Haar cascade classifiers for face, eyes, and yawn detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
